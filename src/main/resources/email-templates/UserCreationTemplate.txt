@@ -1,0 +1,11 @@
+Hello {{firstName}},
+
+Your account has been created.
+
+Username: {{username}}
+Temporary Password: {{password}}
+
+Please log in and change your password.
+
+Regards,
+Timesheet App Team
