@@ -12,9 +12,7 @@ public class UserRoleUpdateRequestDto {
     @NotBlank(message = "employeeCode is required")
     private String employeeCode;
 
-    @NotEmpty(message = "At least one role must be provided")
     private List<String> rolesToAssign;
 
-    @NotEmpty(message = "At least one role must be provided")
     private List<String> rolesToRemove;
 }

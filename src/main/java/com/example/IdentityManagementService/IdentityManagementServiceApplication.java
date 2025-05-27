@@ -15,7 +15,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableConfigurationProperties(CorsProperties.class)
 @SpringBootApplication(scanBasePackages = {
 		"com.example.IdentityManagementService",
-		"com.example.common"      // shared module's security package
 })
 public class IdentityManagementServiceApplication {
 
