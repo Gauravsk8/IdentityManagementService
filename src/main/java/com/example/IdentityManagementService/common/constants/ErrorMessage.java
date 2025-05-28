@@ -29,7 +29,7 @@ public final class ErrorMessage {
     public static final String REPORTING_MANAGER_ASSIGN_FAILED = "Failed to assign reporting manager to employee";
     public static final String REPORTING_MANAGER_ASSIGNED = "Reporting manager is assigned to employee";
     public static final String RM_NOT_ASSIGNED = "Reporting manager not assigned for employee: %s";
-    public static final String RM_NOT_FOUND = "Reporting manager not found";
+    public static final String RM_NOT_FOUND = "Reporting manager not found ";
     public static final String NO_MANAGER_ASSIGNED = "No manager assigned";
 
     // === Timesheet & Assignment Errors ===

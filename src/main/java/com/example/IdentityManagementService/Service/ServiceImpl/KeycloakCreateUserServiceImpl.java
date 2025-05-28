@@ -79,7 +79,6 @@ public class KeycloakCreateUserServiceImpl implements KeycloakCreateUserService 
             }
             newEmployee.setEmployeeType(empType);
 
-
             Employee savedEmployee = employeeRepository.save(newEmployee);
 
             // Connect to Keycloak
@@ -121,7 +120,6 @@ public class KeycloakCreateUserServiceImpl implements KeycloakCreateUserService 
             String emailSubject = MessageConstants.CREATION_EMAIL;
             String emailBody = emailService.loadTemplate("UserCreationTemplate.txt", variables);
             emailService.sendEmail(employee.getEmail(), emailSubject, emailBody);
-
 
             Map<String, String> result = new HashMap<>();
             result.put("userId", userId);
